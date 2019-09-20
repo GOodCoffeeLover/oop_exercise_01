@@ -29,6 +29,9 @@ void print_menu(){
 int main(){
 	Complex_Trig lhs( 1, 0), rhs(1, M_PI/2), ans;
 	int status=1;
+	std::cout<<”Программа для работы с комплексными числами в тригонометрической форме”<<std::endl;
+	std::cout<<"Первое=( "<<lhs.radius()<<" , "<<lhs.angle()<<" )\n";
+	std::cout<<"Второе=( "<<rhs.radius()<<" , "<<rhs.angle()<<" )\n";
 	while(1){
 		switch(status){
 			case 0 : 
