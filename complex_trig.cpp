@@ -76,7 +76,7 @@ void Complex_Trig::ch_angle(double Fi){
 	return;
 }
 bool Complex_Trig::equ(const Complex_Trig& b){
-	return _fi==b._fi && _r==b._r;
+	return((int) _fi*10000) == ((int) b._fi*10000) && ((int)_r*10000) ==((int)b._r*10000);
 }
 
 Complex_Trig Complex_Trig::conj(){
